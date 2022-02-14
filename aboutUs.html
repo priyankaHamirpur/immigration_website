@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hahmlet', serif;
+
+}
+
+.navbar img{
+    height: 100px;
+    margin-left: 40px;
+}
+.navbar{
+    display: flex;
+   
+}
+.navigation_list{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    padding: 30px;
+    margin-left: 15px;
+    font-size: 19px; 
+
+}
+.navigation_list li{
+    margin-left:41px ;
+   
+}
+.navigation_list li> a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+}
+.navigation_list li> a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#log_btn{
+    height: 38px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 30px;
+     border-style: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    
+}
+#signUp_btn{
+    height: 38px;
+    width: 120px;
+    margin-top: 30px;
+     border-style: none;
+    border-radius: 20px;
+    margin-left: 100px;
+    background-color: red;
+    color: white;
+
+}
+.about_mainPage_container{
+    background-color: #94c3d1;
+    height: 100vh;
+
+}
+.about_mainPage {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+.about_mainPage img{
+    width: 550px;
+    height: 400px;
+    margin-top: 50px;
+
+}
+.about_mainPage div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+}
+/* Footer CSS */
+#footer{
+    background-color: #94c3d1;
+
+}
+.languages{
+    background-color: red;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+.languages ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 30px;
+
+}
+.languages li{
+    margin-right: 20px;
+}
+.languages span{
+    margin-left: 50px;
+   
+}
+
+.copy_rights{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:50px;
+    padding-bottom: 10px;
+    font-size: 12px;
+
+}
+    </style>
+</head>
+<body>
+    <div container>
+    <div nav_container>
+        <nav class="navbar">
+            <img src="https://t4.ftcdn.net/jpg/02/08/26/85/360_F_208268598_yoAiUWFdfDasEZbmJNHE4jRmEpfeOJQC.jpg" alt="">
+
+  
+            <ul class="navigation_list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+            <!-- Sign Up form -->
+            <button id="signUp_btn" onclick="openSignUp()">Sign Up</button>
+          
+            <button id="log_btn" onclick="openLogIn()">Log in</button>
+  
+           
+        </nav>
+    </div>
+    <div class="about_mainPage_container">
+        <main  class="about_mainPage">
+            <img src="https://thumbs.dreamstime.com/z/young-smiling-student-holding-passport-pass-ticket-credit-card-isolated-blue-background-excited-woman-boarding-air-travel-163529032.jpg" alt="">
+            <div>
+               <h1>About Us</h1> 
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque cupiditate voluptatibus similique assumenda vel impedit eos excepturi facilis iste qui illo atque accusamus dignissimos repudiandae quod ex quas, possimus corrupti! <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quae nam dolorum et asperiores omnis nisi</b>, sequi deleniti ad mollitia sapiente dicta, officiis magnam quia non repellat soluta doloremque quas.</p>
+              
+
+            </div>
+        </main>
+    </div>
+    <footer id="footer">
+        <div class="copy_rights">
+            <span> © Copyrights 2021-2022. XYZ Immigration Consultants. All Rights Reserved.</span>
+        </div>
+
+        <div class="languages">
+            <span>Languages:</span>
+            <ul>
+            <li>English (UK)</li>
+            <li>हिन्दी</li>
+            <li>ਪੰਜਾਬੀ</li>
+            <li>नेपाली</li>
+            <li>ગુજરાતી</li>
+        </ul>
+        </div>
+        
+    </footer>
+</div>
+</body>
+</html>

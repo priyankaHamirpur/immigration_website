@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hahmlet', serif;
+
+}
+
+.navbar img{
+    height: 100px;
+    margin-left: 40px;
+}
+.navbar{
+    display: flex;
+   
+}
+.navigation_list{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+    margin-left: 15px;
+    font-size: 19px; 
+
+}
+.navigation_list li{
+    margin-left:41px ;
+   
+}
+.navigation_list li> a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+}
+.navigation_list li> a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#log_btn{
+    height: 38px;
+    width: 120px;
+    margin-top: 30px;
+    margin-right: 30px;
+     border-style: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    
+}
+#signUp_btn{
+    height: 38px;
+    width: 120px;
+    margin-top: 30px;
+     border-style: none;
+    border-radius: 20px;
+    margin-right: 30px;
+    background-color: red;
+    color: white;
+
+}
+ul + button{
+    margin-left: 100px;
+}
+
+#trust_id{
+    background-image: url('https://st4.depositphotos.com/1662991/29410/i/1600/depositphotos_294108504-stock-photo-beautiful-excited-woman-holding-passport.jpg');
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    
+}
+#trust_id span{
+    padding: 5px;
+   
+    margin-left: 90px;   
+}
+#trust_id h2{
+    padding: 10px;
+    margin-left: 20px; 
+
+}
+#trust_id button{
+    margin-top: 50px;
+ margin-left: 90px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: red;
+    border-style: none;
+    color: white;
+}
+.testimonials_container{
+    background-color:#94c3d1;
+    padding-top: 30px;
+    width: 100vw;
+
+
+}
+#testmonials_heading{
+    padding: 5px;
+    display: flex;
+    padding-left: 100px;
+    color: black;
+}
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+.testimonials span{
+    
+    margin-left: 25px;
+    margin-right: 25px;
+    width: 300px;
+    padding: 15px;
+    border-style: none;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: white;
+
+}
+.testimonials button{
+    height: 30px;
+    width: 30px;
+    margin-top: 90px;
+    border-radius: 50%;
+    border-style: none;
+    margin-left: 10px;
+}
+.testimonials img{
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+/* Footer CSS */
+#footer{
+    background-color: #94c3d1;
+
+}
+.languages{
+    background-color: red;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+.languages ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 30px;
+
+}
+.languages li{
+    margin-right: 20px;
+}
+.languages span{
+    margin-left: 50px;
+   
+}
+
+.copy_rights{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:50px;
+    padding-bottom: 10px;
+    font-size: 12px;
+
+}
+
+/* Sign up form Css */
+.container{
+    position: relative;
+}
+
+.signUp_form_container{
+    position: absolute;
+    left: 30%;
+    top: 7%;
+}
+
+#signUp_form{
+    display: flex;
+    flex-direction: column;
+    background-color:#94c3d1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: space-between;
+    width: 350px;
+    height: 400px;
+    font-size: 13px;
+    font-weight: 900;
+    border-radius: 8px;
+    display: none;
+
+}
+#form_header{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    
+}
+#form_header h1{
+    font-size: 18px;
+    color: white;
+}
+#form_header button{
+    background-color: red;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    
+    
+}
+#signUp_form span{
+    padding-left: 10px;
+}
+#signUp_form label{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+#signUp_form input{
+    padding: 5px;
+    width: 80%;
+    margin-left: 10px;
+    border-radius: 3px;
+    border-style: groove;
+    border-width: 1px;
+    font-size: 14px;
+}
+.SignUp_btn{
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    
+}
+
+/* CSS for LogIn form */
+
+#LogIn_form{
+    display: flex;
+    flex-direction: column;
+    background-color:#94c3d1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: space-between;
+    width: 350px;
+    height: 280px;
+    font-size: 13px;
+    font-weight: 900;
+    border-radius: 8px;
+    display: none;
+}
+#LogIn_form label{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 13px;
+}
+
+#LogIn_form input{
+    padding: 5px;
+    width: 80%;
+    margin-left: 10px;
+    border-radius: 3px;
+    border-style: groove;
+    border-width: 1px;
+    font-size: 14px;
+}
+.login_btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+#LogIn_form span{
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+#LogIn_form span:hover{
+   text-decoration: underline;
+color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+

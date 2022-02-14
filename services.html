@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+<link href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hahmlet', serif;
+
+}
+
+.navbar img{
+    height: 100px;
+    margin-left: 40px;
+}
+.navbar{
+    display: flex;
+   
+}
+.navigation_list{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    padding: 30px;
+    margin-left: 15px;
+    font-size: 19px; 
+
+}
+.navigation_list li{
+    margin-left:41px ;
+   
+}
+.navigation_list li> a{
+    text-decoration: none;
+    color: black;
+    font-weight:700;
+}
+.navigation_list li> a:hover{
+    color: red;
+    text-decoration: underline;
+}
+#log_btn{
+    height: 38px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 30px;
+     border-style: none;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    
+}
+#signUp_btn{
+    height: 38px;
+    width: 120px;
+    margin-top: 30px;
+     border-style: none;
+    border-radius: 20px;
+    margin-left: 100px;
+    background-color: red;
+    color: white;
+
+}
+/* Services main Page CSS */
+#services_mainPage_container{
+    height: 100vh;
+    background-color: #94c3d1;
+  
+}
+#services_mainPage_container h1{
+    margin-left: 500px;
+padding-top: 15px;
+   
+}
+.services_mainPage{
+    display: flex;
+
+}
+.services_mainPage div{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 25px;
+   padding-left: 10px;
+    border-style: none;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    font-size: 15px;
+
+}
+.services_mainPage div> img{
+    height: 150px;
+    width: 250px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+#enquiry{
+
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: red;
+    border-style: none;
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Footer */
+#footer{
+    background-color: #94c3d1;
+
+}
+.copy_rights{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:50px;
+    padding-bottom: 10px;
+    font-size: 12px;
+
+}
+.languages{
+    background-color: red;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+.languages ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 30px;
+
+}
+.languages li{
+    margin-right: 20px;
+}
+.languages span{
+    margin-left: 50px;
+   
+}
+
+
+    </style>
+</head>
+<body>
+    <div container>
+    <div nav_container>
+        <nav class="navbar">
+            <img src="https://t4.ftcdn.net/jpg/02/08/26/85/360_F_208268598_yoAiUWFdfDasEZbmJNHE4jRmEpfeOJQC.jpg" alt="">
+
+  
+            <ul class="navigation_list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>
+          
+            <button id="signUp_btn" onclick="openSignUp()">Sign Up</button>
+          
+            <button id="log_btn" onclick="openLogIn()">Log in</button>  
+        </nav>
+    </div>
+   <div id="services_mainPage_container">
+    <h1>Services</h1>
+
+       <main class="services_mainPage">
+           <div>
+               <img src="http://tridentconsultancy.in/wp-content/uploads/2019/03/Student-visa.jpg" alt="">
+               <h4>Student Visa</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium voluptates eius voluptatibus ad ex cupiditate aut .</p>
+               <button id="enquiry">Enquiry Now</button>
+           </div>
+           <div>
+               <img src="https://www.associationbuzz.in/wp-content/uploads/2021/10/peru-tourist-and-visitor-visa-89-1482893315.jpg" alt="">
+            <h4>Tourist Visa</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium voluptates eius voluptatibus.</p>
+            <button id="enquiry">Enquiry Now</button>
+
+           </div>
+           <div>
+               <img src="https://www.immigration.ca/wp-content/uploads/2021/05/Permanent-Residence_1405393694-scaled.jpeg" alt="">
+            <h4>Permanent Visa</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium voluptates eius  .</p>
+            <button id="enquiry">Enquiry Now</button>
+
+           </div>
+           <div>
+               <img src="https://cdn.passporthealthusa.com/wp-content/uploads/2018/05/Passport-Stamps.jpg?x35317" alt="">
+            <h4>Counselling For Migration</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt praesentium voluptates eius voluptatibus ad ex cupiditate .</p>
+            <button id="enquiry">Enquiry Now</button>
+
+           </div>
+
+       </main>
+   </div>
+   <footer id="footer">
+    <div class="copy_rights">
+        <span> © Copyrights 2021-2022. XYZ Immigration Consultants. All Rights Reserved.</span>
+    </div>
+
+    <div class="languages">
+        <span>Languages:</span>
+        <ul>
+        <li>English (UK)</li>
+        <li>हिन्दी</li>
+        <li>ਪੰਜਾਬੀ</li>
+        <li>नेपाली</li>
+        <li>ગુજરાતી</li>
+    </ul>
+    </div>
+    
+</footer>
+</div>
+</body>
+</html>
